@@ -1,7 +1,9 @@
 👋 Hello, I'm Anjali
+
 Welcome to my GitHub profile! I'm a passionate and aspiring full-stack developer currently attending a bootcamp at Brototype in Bangalore. Here, I’m building my skills in JavaScript, Node.js, Express, and other technologies in the MEARN stack.
 
 🛠️ Skills & Tools
+
 Languages: JavaScript, HTML, CSS
 Backend: Node.js, Express
 Frontend: React, Bootstrap
