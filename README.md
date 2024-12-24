@@ -1,162 +1,169 @@
-<!-- Header Section with Dynamic Banner -->
+<!-- Animated Header Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Anjali%20NV&fontSize=80&fontAlign=60&fontAlignY=35&desc=Full%20Stack%20Developer&descSize=30&descAlign=60&descAlignY=55"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=300&text=Anjali%20NV&fontSize=90&color=gradient&customColorList=0,2,2,5,30&animation=fadeIn&fontColor=fff&stroke=fff&strokeWidth=2"/>
 </div>
 
-<!-- Dynamic Typing -->
+<!-- Dynamic Hero Section -->
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;Building+Scalable+Web+Applications;Clean+Code+Enthusiast;System+Design+and+Architecture)](https://git.io/typing-svg)
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+      srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=2000&color=A177FE&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer+%7C+Tech+Enthusiast;Building+Scalable+Web+Applications;AWS+%7C+Docker+%7C+Microservices;5%2B+Years+of+Coding+Experience" />
+    <source media="(prefers-color-scheme: light)" 
+      srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=2000&color=7530FF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer+%7C+Tech+Enthusiast;Building+Scalable+Web+Applications;AWS+%7C+Docker+%7C+Microservices;5%2B+Years+of+Coding+Experience" />
+    <img alt="Typing Animation" src="your-default-image.svg" />
+  </picture>
 </div>
 
-<!-- Professional Summary -->
-<h3 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-  Welcome to my Code Sanctuary
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h3>
-
-<p align="center">
-  <img src="https://custom-icon-badges.demolab.com/badge/-Full%20Stack%20Developer-blue?style=for-the-badge&logo=code&logoColor=white"/>
-  <img src="https://custom-icon-badges.demolab.com/badge/-System%20Design-orange?style=for-the-badge&logo=architecture&logoColor=white"/>
-  <img src="https://custom-icon-badges.demolab.com/badge/-Cloud%20Architecture-purple?style=for-the-badge&logo=cloud&logoColor=white"/>
-</p>
-
-<!-- Profile Widget -->
+<!-- Animated Status Cards -->
 <div align="center">
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=anjaleenv&data=followers,repositories,stars,commits&theme=nautilus" width="600">
+  <img src="https://github-stats-alpha.vercel.app/api?username=anjaleenv&cc=000&tc=fff&ic=fff&bc=000" width="49%" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anjaleenv&theme=transparent" width="49%" />
 </div>
 
-<!-- Developer Card -->
-```javascript
-class FullStackDeveloper {
-    constructor() {
-        this.name = "Anjali NV";
-        this.role = "Full Stack Developer";
-        this.languageSpoken = ["en_US", "hi_IN", "ml_IN"];
-        this.codeStack = {
+<!-- Animated Stack Card -->
+```js
+// life.js
+
+class SoftwareArchitect {
+    #name = "Anjali NV";
+    #title = "Full Stack Developer";
+    #location = "🌍 India";
+    
+    get skills() {
+        return {
+            languages: new Set([
+                "JavaScript", "TypeScript", "Python",
+                "HTML5", "CSS3", "SQL"
+            ]),
+            
             frontend: {
                 frameworks: ["React", "Next.js", "Redux"],
-                styling: ["Tailwind CSS", "Material-UI", "Styled-Components"],
-                testing: ["Jest", "React Testing Library"]
+                ui: ["Tailwind CSS", "Material-UI", "Framer Motion"],
+                testing: ["Jest", "React Testing Library", "Cypress"]
             },
+            
             backend: {
                 runtime: "Node.js",
-                frameworks: ["Express.js", "NestJS"],
+                frameworks: ["Express", "NestJS", "Socket.IO"],
                 databases: ["MongoDB", "PostgreSQL", "Redis"],
-                orm: ["Mongoose", "Prisma"]
+                orm: ["Mongoose", "Prisma", "TypeORM"]
             },
-            devOps: {
-                cloud: ["AWS", "Firebase"],
+            
+            devops: {
+                cloud: ["AWS", "Firebase", "Vercel"],
                 containers: ["Docker", "Kubernetes"],
-                cicd: ["GitHub Actions", "Jenkins"]
-            }
+                ci_cd: ["GitHub Actions", "Jenkins"],
+                monitoring: ["ELK Stack", "Grafana"]
+            },
+            
+            architecture: [
+                "Microservices",
+                "Event-Driven",
+                "Serverless",
+                "REST API",
+                "GraphQL"
+            ]
         };
-        this.currentLearning = ["System Design", "Microservices", "AWS Solutions"];
     }
-
-    sayHi() {
-        return "Thanks for dropping by! Let's build something amazing together 👨‍💻";
+    
+    get focus() {
+        return [
+            "🎯 System Design & Architecture",
+            "🚀 Scalable Applications",
+            "💡 Performance Optimization",
+            "🔒 Security Best Practices"
+        ];
+    }
+    
+    get contact() {
+        return {
+            email: "your.email@example.com",
+            linkedin: "anjali-nv",
+            website: "portfolio.dev"
+        };
     }
 }
 ```
 
-<!-- Tech Stack Animation -->
+<!-- Animated Stats Grid -->
 <div align="center">
-  <h2>🛠️ My Favorite Tech Stack 🛠️</h2>
-  <img src="https://skillicons.dev/icons?i=react,next,nodejs,express,mongodb,typescript,tailwind,aws,docker,git&perline=5"/>
+  <img src="https://streak-stats.demolab.com?user=anjaleenv&theme=ambient-gradient&hide_border=true&border_radius=20&background=45%2C000000%2C242424" width="49%" height="200"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjaleenv&layout=compact&theme=ambient_gradient&hide_border=true&border_radius=20&bg_color=45%2C000000%2C242424" width="49%" height="200"/>
 </div>
 
-<!-- GitHub Stats with Custom Design -->
-<h2 align="center">📊 GitHub Analytics 📊</h2>
-<p align="center">
-  <img width="400" src="https://github-readme-stats.vercel.app/api?username=anjaleenv&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="stats" />
-  <img width="425" src="https://streak-stats.demolab.com/?user=anjaleenv&theme=react&border_radius=10" alt="streak"/>
-</p>
+<!-- Interactive Tech Stack -->
+<h2 align="center">
+  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px"/> 
+  Tech Arsenal
+</h2>
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anjaleenv&custom_title=Anjali's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF&point=7F3FBF&area_color=FFFFFF&title_color=FFFFFF&area=true" alt="Activity Graph" width="100%"/>
-
-<!-- Skills Progress Bars -->
-<h2 align="center">💻 Technical Proficiency 💻</h2>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjaleenv&theme=react&layout=compact&border_radius=10" alt="languages" height="200"/>
-</p>
-
-<!-- Project Showcase -->
-<h2 align="center">🔥 Featured Projects 🔥</h2>
 <div align="center">
-  <a href="https://github.com/anjaleenv/project1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anjaleenv&repo=project1&theme=react&border_radius=10"/>
+  <!-- Primary Skills -->
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,typescript&theme=dark&perline=5" width="60%"/>
+  
+  <!-- Secondary Skills -->
+  <img src="https://skillicons.dev/icons?i=nextjs,tailwind,redux,aws,docker&theme=dark&perline=5" width="60%"/>
+</div>
+
+<!-- Animated Project Cards -->
+<h2 align="center">🌟 Featured Projects</h2>
+
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+  <!-- Project 1 -->
+  <a href="https://github.com/yourusername/project1">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anjaleenv&repo=project1&theme=ambient_gradient&hide_border=true&border_radius=20&bg_color=45%2C000000%2C242424" />
   </a>
-  <a href="https://github.com/anjaleenv/project2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anjaleenv&repo=project2&theme=react&border_radius=10"/>
+  
+  <!-- Project 2 -->
+  <a href="https://github.com/yourusername/project2">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anjaleenv&repo=project2&theme=ambient_gradient&hide_border=true&border_radius=20&bg_color=45%2C000000%2C242424" />
   </a>
 </div>
 
-<!-- Professional Journey -->
-<h2 align="center">🚀 Current Endeavors 🚀</h2>
+<!-- Interactive Trophy Case -->
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">Current Focus</h3>
-        <p align="center">
-          🔭 Building Scalable Microservices<br>
-          🌱 Advanced System Design<br>
-          👯 Cloud-Native Applications<br>
-          ⚡ Performance Optimization
-        </p>
-      </td>
-      <td width="50%">
-        <h3 align="center">Future Goals</h3>
-        <p align="center">
-          🎯 AWS Solutions Architect<br>
-          🔬 Distributed Systems<br>
-          📚 Tech Leadership<br>
-          🌟 Open Source Contribution
-        </p>
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-profile-trophy.vercel.app/?username=anjaleenv&theme=darkhub&no-frame=true&no-bg=true&column=7" width="100%" alt="Trophy Case"/>
 </div>
 
-<!-- Connect Section -->
-<h2 align="center">🤝 Let's Connect 🤝</h2>
+<!-- Contribution Activity -->
 <div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anjaleenv&custom_title=Contribution%20Graph&bg_color=000000&color=A177FE&line=A177FE&point=FFFFFF&area=true&hide_border=true" width="100%"/>
+</div>
+
+<!-- Animated Connect Section -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> 
+  Let's Connect!
+</h2>
+
+<p align="center">
   <a href="https://linkedin.com/in/anjali-nv">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=black"/>
   </a>
   <a href="https://leetcode.com/anjali_nv">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&color=black"/>
   </a>
   <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=black"/>
   </a>
   <a href="https://instagram.com/anjallleeee">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&color=black"/>
   </a>
-</div>
-
-<!-- Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</div>
-
-<!-- Profile View Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=anjaleenv&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
 </p>
 
-<!-- Snake Animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-</picture>
-
-<!-- Inspirational Quote -->
+<!-- Interactive Footer -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+    <img alt="snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
+
+<!-- Profile Views Counter -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=anjaleenv&style=for-the-badge&color=A177FE&label=PROFILE+VIEWS"/>
+</div>
+
+<!-- Dynamic Footer Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=0,2,2,5,30&section=footer&text=Let's%20Build%20Something%20Amazing!&fontSize=40&fontColor=fff&animation=fadeIn&stroke=fff&strokeWidth=2"/>
